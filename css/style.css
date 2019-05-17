@@ -1,0 +1,183 @@
+/* 
+    Created on : May 10, 2019, 3:41:36 PM
+    Author     : rdrgz
+*/
+
+body{
+    background-image: url("../images/wallback.jpg");
+    background-color:darkslateblue;
+    background-size: cover; 
+}
+
+
+header{
+    margin: auto;
+    width: 40%;
+    padding: 2% 10%;
+    background-color: #FFEFD5;
+    border-style: groove;
+    border-width: 5px;
+    border-color: black; 
+    overflow:hidden;    
+}
+
+.info{
+    float:right;
+    font-family: 'Aldrich';
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3vw;
+    text-shadow: 
+      1px -1px 0 #767676, 
+      -1px 2px 1px #737272, 
+      -2px 4px 1px #767474, 
+      -3px 6px 1px #787777, 
+      -4px 8px 1px #7b7a7a, 
+      -5px 10px 1px #7f7d7d;
+}
+
+
+.faceimg{
+    width: 25%;
+    height: auto;
+    float: left;
+    box-shadow: 5px 5px 5px #483D8B;
+}
+
+
+
+.mid{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+}
+
+h2{
+    font-family: 'Allan';
+    font-size: 28px;
+}
+
+article{
+    width: 70%;
+    background-color: #FFEFD5;
+    color: #483D8B;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    letter-spacing: 0.1.5em;
+    word-spacing: 0.25em;
+    font-family: "verdana", sans-serif;
+    font-size: 18px;
+}
+
+.sidenav{
+    background-color: #708090;
+    width: 20%;
+    overflow-x: hidden;
+    
+}
+.sidenav a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 0 20px 0;
+}
+
+.sidenav a:hover, .active{
+    color:#FFEFD5;
+    background-color: #666;
+}
+
+
+.footer{
+    text-align: center;
+    color:white;
+}
+
+li{
+    list-style: none;
+    margin: 0px 30px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 2px solid #FFEFD5;
+    border-radius: 30%; 
+}
+
+a{
+  color: inherit;
+}
+
+li:hover{
+    color:black;
+    transition: .5s;
+    
+}
+
+label{
+    display: block;
+    margin-top:20px;
+    letter-spacing: 2px;
+    font-family: 'Allan';
+    
+}
+
+
+form{
+    margin:0 auto;
+    width: 495px;
+}
+
+input, textarea{
+    width: 439px;
+    height: 15px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #3a3a3a;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #97d6eb;
+}
+
+textarea{
+    height: 150px;
+    background:url() right no repeat #efefef;
+}
+
+button{
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 4px;
+    border: 2px #483D8B solid;
+    
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
